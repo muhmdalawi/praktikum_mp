@@ -15,6 +15,7 @@ import '../pertemuan/pertemuan_5/tugas.dart';
 import '../pertemuan/pertemuan_6/tugas.dart';
 import '../pertemuan/pertemuan_7/tugas.dart';
 import '../pertemuan/pertemuan_8/tugas.dart';
+import '../pertemuan/pertemuan_12/tugas.dart';
 
 class MateriPage extends StatefulWidget {
   const MateriPage({super.key});
@@ -147,6 +148,21 @@ class _MateriPageState extends State<MateriPage> {
       'isCompleted': false,
       'isUpcoming': false,
       'target': const TugasPertemuan8(),
+    },
+    {
+      'judul': 'Pertemuan 12',
+      'topik': 'MVVM, SearchView, OptionMenu & ContextMenu',
+      'deskripsi':
+          'Daftar tugas kuliah berarsitektur MVVM dengan pencarian real-time di AppBar, PopupMenuButton berikon, dan menu tekan lama (showMenu).',
+      'kategori': 'Kompleks',
+      'waktu': '30 Menit',
+      'level': 'Lanjutan',
+      'warna': AppColors.secondary,
+      'ikon': LucideIcons.listTodo,
+      'status': 'Selesai',
+      'isCompleted': true,
+      'isUpcoming': false,
+      'target': const TugasPertemuan12(),
     },
   ];
 
